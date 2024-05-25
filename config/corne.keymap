@@ -42,10 +42,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q           &kp W              &kp E              &kp R                &kp T        &kp Y    &kp U                 &kp I               &kp O               &kp P              &kp BSPC
-&kp LCTRL  &kp_hl RCTRL A  &kp_hl LEFT_ALT S  &kp_hl LEFT_GUI D  &kp_hl LEFT_SHIFT F  &kp G        &kp H    &kp_hl RIGHT_SHIFT J  &kp_hl RIGHT_GUI K  &kp_hl RIGHT_ALT L  &kp_hl RCTRL SEMI  &kp SQT
-&kp LSHFT  &kp Z           &kp X              &kp C              &kp V                &kp B        &kp N    &kp M                 &kp COMMA           &kp DOT             &kp FSLH           &kp ESC
-                                              &kp_mo 1 DEL       &kp_mo 2 ESC         &kp SPACE    &kp RET  &kp BACKSPACE         &kp_mo 3 TAB
+&trans  &kp Q           &kp W              &kp E              &kp R                &kp T        &kp Y    &kp U                 &kp I               &kp O               &kp P              &trans
+&trans  &kp_hl RCTRL A  &kp_hl LEFT_ALT S  &kp_hl LEFT_GUI D  &kp_hl LEFT_SHIFT F  &kp G        &kp H    &kp_hl RIGHT_SHIFT J  &kp_hl RIGHT_GUI K  &kp_hl RIGHT_ALT L  &kp_hl RCTRL SEMI  &trans
+&trans  &kp Z           &kp X              &kp C              &kp V                &kp B        &kp N    &kp M                 &kp COMMA           &kp DOT             &kp FSLH           &trans
+                                           &kp_mo 1 DEL       &kp_mo 2 ESC         &kp SPACE    &kp RET  &kp BACKSPACE         &kp_mo 3 TAB
             >;
         };
 

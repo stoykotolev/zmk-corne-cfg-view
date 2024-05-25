@@ -64,7 +64,7 @@
             >;
         };
 
-        raise_layer {
+        symbols_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -72,19 +72,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&kp  &kp SQT    &kp EXCLAMATION  &kp AT_SIGN  &kp DOUBLE_QUOTES  &kp NON_US_BACKSLASH    &kp AMPERSAND  &kp DOLLAR    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &trans
+&kp  &kp EQUAL  &kp MINUS        &kp PLUS     &kp UNDERSCORE     &kp                     &kp PERCENT    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &trans
+&kp  &kp        &kp              &kp          &kp                &kp                     &kp HASH       &kp CARET     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE  &trans
+                                 &kp LGUI     &kp                &kp SPACE               &kp RET        &kp           &kp RALT
             >;
         };
 
         nav_layer {
             bindings = <
-&kp  &trans             &kp LG(LS(NUMBER_4))  &kp LG(LC(LS(NUMBER_4)))  &kp  &kp    &kp RA(LEFT_ARROW)  &kp RA(DOWN)  &kp RA(UP)  &kp RA(RIGHT)  &trans      &kp
-&kp  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp C_VOL_UP              &kp  &kp    &kp LEFT            &kp DOWN      &kp UP      &kp LEFT       &caps_word  &kp
-&kp  &kp                &kp                   &kp                       &kp  &kp    &kp RG(LEFT)        &kp RG(DOWN)  &kp RG(UP)  &kp RG(RIGHT)  &kp         &kp
-                                              &kp                       &kp  &kp    &kp                 &kp           &kp
+&trans  &trans             &kp LG(LS(NUMBER_4))  &kp LG(LC(LS(NUMBER_4)))  &trans  &trans    &kp RA(LEFT_ARROW)  &kp RA(DOWN)  &kp RA(UP)  &kp RA(RIGHT)  &trans      &trans
+&trans  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp C_VOL_UP              &trans  &trans    &kp LEFT            &kp DOWN      &kp UP      &kp LEFT       &caps_word  &trans
+&trans  &trans             &trans                &trans                    &trans  &trans    &kp RG(LEFT)        &kp RG(DOWN)  &kp RG(UP)  &kp RG(RIGHT)  &trans      &trans
+                                                 &trans                    &trans  &trans    &trans              &trans        &trans
             >;
         };
     };

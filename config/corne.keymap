@@ -83,7 +83,7 @@
             bindings = <
 &trans  &trans  &kp LG(LS(NUMBER_4))  &kp LG(LC(LS(NUMBER_4)))  &trans           &trans    &kp RA(LEFT_ARROW)  &kp RA(DOWN)  &kp RA(UP)  &kp RA(RIGHT)  &trans      &bt BT_CLR_ALL
 &trans  &trans  &kp C_VOLUME_DOWN     &kp K_MUTE                &kp C_VOLUME_UP  &trans    &kp LEFT            &kp DOWN      &kp UP      &kp LEFT       &caps_word  &bt BT_SEL 0
-&trans  &trans  &trans                &trans                    &trans           &trans    &kp RG(LEFT)        &kp RG(DOWN)  &kp RG(UP)  &kp RG(RIGHT)  &trans      &trans
+&trans  &trans  &trans                &trans                    &trans           &trans    &kp RG(LEFT)        &kp RG(DOWN)  &kp RG(UP)  &kp RG(RIGHT)  &trans      &bt BT_SEL 1
                                       &trans                    &trans           &trans    &trans              &trans        &trans
             >;
         };

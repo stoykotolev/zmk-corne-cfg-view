@@ -45,10 +45,10 @@
 
             display-name = "Base";
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R              &kp T        &kp Y    &kp U    &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S  &kp D  &kp F              &kp G        &kp H    &kp J    &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X  &kp C  &kp V              &kp B        &kp N    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &mo 1  &kpmo 2 BACKSPACE  &kp SPACE    &kp RET  &kp TAB  &trans
+&trans  &kp Q  &kp W  &kp E  &kp R              &kp T        &kp Y    &kp U        &kp I      &kp O    &kp P     &trans
+&trans  &kp A  &kp S  &kp D  &kp F              &kp G        &kp H    &kp J        &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X  &kp C  &kp V              &kp B        &kp N    &kp M        &kp COMMA  &kp DOT  &kp FSLH  &trans
+                      &mo 1  &kpmo 2 BACKSPACE  &kp SPACE    &kp RET  &kpmo 3 TAB  &trans
             >;
         };
 
@@ -67,6 +67,15 @@
 &trans  &kp EXCLAMATION  &kp MINUS    &kp PLUS    &kp EQUAL      &trans    &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp ASTERISK   &kp PERCENT        &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp TILDE        &kp AT_SIGN  &kp HASH    &kp BACKSLASH  &trans    &kp AMPERSAND   &kp LEFT_BRACE        &kp LESS_THAN  &kp GREATER_THAN   &kp RIGHT_BRACE        &trans
                                       &trans      &trans         &trans    &trans          &trans                &trans
+            >;
+        };
+
+        Nav {
+            bindings = <
+&trans  &kp LS(LG(NUMBER_3))  &kp LS(LC(LG(NUMBER_3)))  &kp LS(LG(LC(NUMBER_4)))  &kp LS(LG(NUMBER_4))  &trans    &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
+&trans  &kp LS(LG(N5))        &kp C_VOLUME_UP           &kp K_MUTE                &kp C_VOL_UP          &trans    &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
+&trans  &trans                &trans                    &trans                    &trans                &trans    &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
+                                                        &trans                    &trans                &trans    &trans        &trans        &trans
             >;
         };
     };

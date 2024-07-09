@@ -48,7 +48,7 @@
 &trans  &kp Q                &kp W            &kp E                &kp R              &kp T        &kp Y    &kp U               &kp I                 &kp O             &kp P                         &trans
 &trans  &kph LEFT_CONTROL A  &kph LEFT_ALT S  &kph LEFT_COMMAND D  &kph LEFT_SHIFT F  &kp G        &kp H    &kph RIGHT_SHIFT J  &kph RIGHT_COMMAND K  &kph RIGHT_ALT L  &kph RIGHT_CONTROL SEMICOLON  &trans
 &trans  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp N    &kp M               &kp COMMA             &kp DOT           &kp FSLH                      &trans
-                                              &mo 1                &kpmo 2 BACKSPACE  &kp SPACE    &kp RET  &kpmo 3 TAB         &trans
+                                              &mo 1                &kpmo 2 BACKSPACE  &kp SPACE    &kp RET  &kpmo 3 TAB         &kp ESC
             >;
         };
 

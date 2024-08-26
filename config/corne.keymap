@@ -73,7 +73,7 @@
         Nav {
             bindings = <
 &trans  &kp LS(LG(NUMBER_3))  &kp LS(LC(LG(NUMBER_3)))  &kp LS(LG(LC(NUMBER_4)))  &kp LS(LG(NUMBER_4))  &trans    &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
-&trans  &kp LS(LG(N5))        &kp C_VOLUME_UP           &kp K_MUTE                &kp C_VOL_UP          &trans    &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
+&trans  &kp LS(LG(N5))        &kp C_VOLUME_DOWN         &kp K_MUTE                &kp C_VOL_UP          &trans    &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
 &trans  &trans                &trans                    &trans                    &trans                &trans    &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
                                                         &trans                    &trans                &trans    &trans        &trans        &trans
             >;

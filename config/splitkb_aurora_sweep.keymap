@@ -14,11 +14,11 @@
 
     tapping-term-ms = <170>;
     flavor = "tap-preferred";
-    quick-tap-ms = <100>;
+    quick-tap-ms = <200>;
 };
 
 &lt {
-    quick-tap-ms = <100>;
+    quick-tap-ms = <200>;
     tapping-term-ms = <170>;
 };
 

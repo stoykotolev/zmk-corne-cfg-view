@@ -86,10 +86,10 @@
 
         higher {
             bindings = <
-&kp GRAVE        &kp CARET    &kp DOLLAR  &kp PIPE              &trans    &trans          &kp LEFT_BRACKET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET
-&kp EXCLAMATION  &kp MINUS    &kp PLUS    &kp EQUAL             &trans    &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp ASTERISK      &kp PERCENT        &kp RIGHT_PARENTHESIS
-&kp TILDE        &kp AT_SIGN  &kp HASH    &kp NON_US_BACKSLASH  &trans    &kp AMPERSAND   &kp LEFT_BRACE        &kp LESS_THAN     &kp GREATER_THAN   &kp RIGHT_BRACE
-&kp              &kp                                                                                                              &kp                &kp
+&kp GRAVE        &kp CARET    &kp DOLLAR  &kp PIPE       &trans    &trans          &kp LEFT_BRACKET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET
+&kp EXCLAMATION  &kp MINUS    &kp PLUS    &kp EQUAL      &trans    &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp ASTERISK      &kp PERCENT        &kp RIGHT_PARENTHESIS
+&kp TILDE        &kp AT_SIGN  &kp HASH    &kp BACKSLASH  &trans    &kp AMPERSAND   &kp LEFT_BRACE        &kp LESS_THAN     &kp GREATER_THAN   &kp RIGHT_BRACE
+&kp              &kp                                                                                                       &kp                &kp
             >;
         };
 
